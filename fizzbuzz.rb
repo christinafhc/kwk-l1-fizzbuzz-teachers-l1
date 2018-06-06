@@ -1,9 +1,9 @@
 def fizzbuzz(x)
   if x%3 ==0 && x%5==0 
-    puts "Fizzbuzz"
+    puts "fizzbuzz"
     elsif x%3==0 
-    puts "Fizz"
+    puts "fizz"
   else x%5==0 
-    puts "Buzz"
+    puts "buzz"
   end 
 end 
