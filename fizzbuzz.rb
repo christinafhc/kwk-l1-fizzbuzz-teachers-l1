@@ -3,8 +3,10 @@ def fizzbuzz()
     puts "fizzbuzz"
     elsif x%3==0 
     puts "fizz"
-  else x%5==0 
+  elsif x%5==0 
     puts "buzz"
+  else
+    puts "nil"
   end 
 end 
 
